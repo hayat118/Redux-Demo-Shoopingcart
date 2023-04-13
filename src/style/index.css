@@ -143,3 +143,30 @@ body {
 .card {
   margin-bottom: 20px;
 }
+.w-100 {
+  width: 50% !important;
+}
+.card-title {
+  color: red;
+}
+.price {
+  color: brown;
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8;
+  }
+  .p-card {
+    width: 330%;
+  }
+  .navbar-brand {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}

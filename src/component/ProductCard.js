@@ -25,12 +25,12 @@ export default function ProductCard() {
         <MDBRow className="mb-3">
           {items.map((item) => (
             <MDBCol key={item.id} size="4">
-              <MDBCard>
+              <MDBCard className="p-card">
                 <MDBCardImage src={item.images} position="top" alt="..." />
                 <MDBCardBody>
                   <MDBCardTitle>{item.title}</MDBCardTitle>
                   <MDBCardText>{item.description}</MDBCardText>
-                  <MDBCardText>${item.price}</MDBCardText>
+                  <MDBCardText className="price">${item.price}</MDBCardText>
                   <MDBBtn onClick={() => dispatch(addToCart(item))}>
                     ADD TO CART
                   </MDBBtn>
