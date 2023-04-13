@@ -158,10 +158,13 @@ body {
   .row {
     display: flex;
     flex-direction: column;
-    --mdb-gutter-x: 0.8rem;
+    --mdb-gutter-x: 1.2rem;
+  }
+  .row > * {
+    width: 97%;
   }
   .p-card {
-    width: 330%;
+    width: 100%;
   }
   .navbar-brand {
     display: block;
