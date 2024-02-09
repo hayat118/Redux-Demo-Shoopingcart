@@ -153,6 +153,9 @@ body {
   color: brown;
   padding: 10px 0;
 }
+.card-img-top{
+  height: 200px;
+}
 
 @media screen and (max-width: 767px) {
   .row {
@@ -165,6 +168,7 @@ body {
   }
   .p-card {
     width: 100%;
+   
   }
   .navbar-brand {
     display: block;
